@@ -1,0 +1,2 @@
+﻿  Main.cpp
+d:\nick\c++\ue4\lesson01\lesson01\main.cpp(11): error C2296: “<<”: 非法，左操作数包含“int (__cdecl *)(const char *const ,...)”类型
