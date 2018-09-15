@@ -8,7 +8,7 @@ int main()
 	b = 3;
 	a = b + 1;
 
-	printf;
-	system("pause");
+	cout << a << endl;
+	cin.get();
 	return 0;
 }

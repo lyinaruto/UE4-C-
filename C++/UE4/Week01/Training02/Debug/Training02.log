@@ -1,0 +1,4 @@
+﻿  Training02.cpp
+d:\nick\c++\ue4\week01\training02\training02.cpp(11): warning C4101: “T”: 未引用的局部变量
+  Training02.vcxproj -> D:\Nick\C++\UE4\Week01\Debug\Training02.exe
+  Training02.vcxproj -> D:\Nick\C++\UE4\Week01\Debug\Training02.pdb (Full PDB)

@@ -1,0 +1,4 @@
+﻿  calculator.cpp
+d:\nick\c++\ue4\test01\calculator\calculator.cpp(11): error C2065: “var”: 未声明的标识符
+d:\nick\c++\ue4\test01\calculator\calculator.cpp(11): error C2146: 语法错误: 缺少“;”(在标识符“cal”的前面)
+d:\nick\c++\ue4\test01\calculator\calculator.cpp(11): error C2065: “cal”: 未声明的标识符

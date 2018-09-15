@@ -1,0 +1,6 @@
+﻿  Lesson03.cpp
+d:\nick\c++\ue4\week01\lesson03\lesson03.cpp(21): warning C4305: “初始化”: 从“double”到“float”截断
+d:\nick\c++\ue4\week01\lesson03\lesson03.cpp(41): warning C4305: “初始化”: 从“double”到“float”截断
+d:\nick\c++\ue4\week01\lesson03\lesson03.cpp(45): warning C4305: “初始化”: 从“double”到“float”截断
+  Lesson03.vcxproj -> D:\Nick\C++\UE4\Week01\Debug\Lesson03.exe
+  Lesson03.vcxproj -> D:\Nick\C++\UE4\Week01\Debug\Lesson03.pdb (Full PDB)
