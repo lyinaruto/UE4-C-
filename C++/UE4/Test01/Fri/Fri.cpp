@@ -3,6 +3,7 @@
 
 #include "stdafx.h"
 #include <string>
+#include <sstream> 
 
 
 int main()
@@ -55,6 +56,7 @@ int main()
 	cout << ".  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  ." << endl;
 	cout << endl;
 
+	cout << "第一种" << endl;
 	int a, b, c, d, e, f;
 	a = 531220 / 100000;
 	b = 531220 % 100000 / 10000;
@@ -63,6 +65,18 @@ int main()
 	e = 531220 % 100 / 10;
 	f = 531220 % 10;
 	cout << "第一位:" << a << "  第二位:" << b << "  第三位:" << c << "  第四位:" << d << "  第五位:" << e << "  第六位:" << f << endl;
+	cout << endl;
+
+	cout << "第二种" << endl;
+	int num022 = 531220;
+	int inum = 1;
+	for (int i022=1;i022<=100000;i022*=10)
+	{
+		cout << "第" <<inum<< "位:"<< num022 / i022 % 10 << "  ";
+		inum++;
+	}
+	cout << endl;
+
 	cout << endl;
 	cout << "----------------------------------------------------------------------------" << endl;
 	cout << endl;
@@ -261,7 +275,7 @@ int main()
 		cout << endl;
 		cout << "请输入第二个数字：";
 		cin >> num2;
-		cout << endl; 
+		cout << endl;
 		cout << "输入q键退出(输入任意键并回车继续):";
 		cin >> exit;
 		cout << endl;

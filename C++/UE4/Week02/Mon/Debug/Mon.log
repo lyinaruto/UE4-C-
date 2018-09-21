@@ -1,0 +1,7 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Mon.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  stdafx.cpp
+  Mon.cpp
+d:\nick\c++\ue4\week02\mon\mon.cpp(284): warning C4715: “PriNum”: 不是所有的控件路径都返回值
+d:\nick\c++\ue4\week02\mon\mon.cpp(231): warning C4172: 返回局部变量或临时变量的地址: Circle
+  Mon.vcxproj -> D:\Nick\C++\UE4\Week02\Debug\01 Mon.exe
+  Mon.vcxproj -> D:\Nick\C++\UE4\Week02\Debug\01 Mon.pdb (Full PDB)
