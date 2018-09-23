@@ -1,0 +1,5 @@
+﻿  Test02.cpp
+d:\nick\c++\ue4\test02\test02\test02.cpp(77): warning C4305: “=”: 从“double”到“float”截断
+d:\nick\c++\ue4\test02\test02\test02.cpp(184): warning C4305: “=”: 从“double”到“float”截断
+  Test02.vcxproj -> D:\Nick\C++\UE4\Test02\Debug\Test02.exe
+  Test02.vcxproj -> D:\Nick\C++\UE4\Test02\Debug\Test02.pdb (Full PDB)
