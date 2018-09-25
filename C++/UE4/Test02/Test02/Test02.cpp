@@ -63,9 +63,9 @@ public:
 	string name;
 public:
 	void LUp();
-	void ChangeName();
-	void Message();
+	void GetMessage();
 };
+
 
 Magic::Magic()
 {
@@ -86,14 +86,7 @@ void Magic::LUp()
 	SPD += 2;
 }
 
-void Magic::ChangeName()
-{
-	cin.ignore();
-	cout << "请输入您法师的名字： ";
-	getline(cin, name);
-}
-
-void Magic::Message()
+void Magic::GetMessage()
 {
 	cout << "角色：" << name << endl;
 	cout << "================" << endl;
@@ -107,7 +100,7 @@ void Magic::Message()
 	cout << "下一级所需经验值：" << NextEXP << endl;
 }
 
-Magic FS;
+Magic *FS=new Magic;
 
 class Tank :private Actor
 {
@@ -117,8 +110,7 @@ public:
 	string name;
 public:
 	void LUp();
-	void ChangeName();
-	void Message();
+	void GetMessage();
 };
 
 Tank::Tank()
@@ -140,14 +132,7 @@ void Tank::LUp()
 	SPD += 3;
 }
 
-void Tank::ChangeName()
-{
-	cin.ignore();
-	cout << "请输入您战士的名字： ";
-	getline(cin, name);
-}
-
-void Tank::Message()
+void Tank::GetMessage()
 {
 	cout << "角色：" << name << endl;
 	cout << "================" << endl;
@@ -161,7 +146,7 @@ void Tank::Message()
 	cout << "下一级所需经验值：" << NextEXP << endl;
 }
 
-Tank TK;
+Tank *TK=new Tank;
 
 class Prisst :private Actor
 {
@@ -170,8 +155,7 @@ public:
 	string name;
 public:
 	void LUp();
-	void ChangeName();
-	void Message();
+	void GetMessage();
 };
 
 Prisst::Prisst()
@@ -193,14 +177,7 @@ void Prisst::LUp()
 	SPD += 3;
 }
 
-void Prisst::ChangeName()
-{
-	cin.ignore();
-	cout << "请输入您牧师的名字： ";
-	getline(cin, name);
-}
-
-void Prisst::Message()
+void Prisst::GetMessage()
 {
 	cout << "角色：" << name << endl;
 	cout << "================" << endl;
@@ -214,7 +191,7 @@ void Prisst::Message()
 	cout << "下一级所需经验值：" << NextEXP << endl;
 }
 
-Prisst MS;
+Prisst *MS=new Prisst;
 
 struct Account
 {
@@ -329,13 +306,17 @@ void Select()
 		switch (*NN)
 		{
 		case EP_FS:
-			FS.ChangeName();
+			*
+			string FName;
+			cin>>
 			break;
 		case EP_Tank:
-			TK.ChangeName();
+			string TName;
+			
 			break;
 		case EP_MS:
-			MS.ChangeName();
+			string MName;
+			
 			break;
 		default:
 			cout << "您的输入有误，请重新输入！" << endl;
@@ -379,13 +360,13 @@ void Menu()
 		switch (*NN)
 		{
 		case EP_FS:
-			FS.Message();
+			FS.GetMessage();
 			break;
 		case EP_Tank:
-			TK.Message();
+			TK.GetMessage();
 			break;
 		case EP_MS:
-			MS.Message();
+			MS.GetMessage();
 			break;
 		default:
 			break;
@@ -403,4 +384,5 @@ void Menu()
 	}
 
 }
+
 
