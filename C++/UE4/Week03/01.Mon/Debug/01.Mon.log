@@ -1,3 +1,7 @@
-﻿  01.Mon.cpp
-  01.Mon.vcxproj -> D:\Nick\C++\UE4\Week03\Debug\01.Mon.exe
-  01.Mon.vcxproj -> D:\Nick\C++\UE4\Week03\Debug\01.Mon.pdb (Full PDB)
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (01.Mon.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  stdafx.cpp
+  Practice.cpp
+  01.Mon.cpp
+  正在生成代码...
+  01.Mon.vcxproj -> D:\Nick\C++\UE4\Week03\Debug\02.Tur.exe
+  01.Mon.vcxproj -> D:\Nick\C++\UE4\Week03\Debug\02.Tur.pdb (Full PDB)

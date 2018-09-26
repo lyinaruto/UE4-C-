@@ -175,19 +175,19 @@ void Bus::DownSpeed()
 	}
 }
 
-class Light
-{
-public:
-	int Lumin;
-
-
-};
-
 
 Rectangle *Rec = new Rectangle;
 People *Snd = new People;
-int main()
+
+void aaa(int** a);
+
+void Ax(int& Ax);
+
+void AX(int* AX);
+
+int main00()
 {
+/*
 	cout << "输入长宽 计算周长/面积" << endl;
 	cin >> Rec->length;
 	cin >> Rec->wight;
@@ -196,7 +196,37 @@ int main()
 
 	cout << "返回年龄" << endl;
 	cout << Snd->GetAge() << endl;
+*/
 
+
+	int b=10;
+
+	int *Pb = new int;
+
+	Pb = &b;
+	cout << "*Pb:" << *Pb << endl;
+	cout << "Pb:" << Pb << endl;
+	cout << endl;
+
+	aaa(&Pb);
+
+	cout <<"b:"<< b << endl;
+	cout << "Pb:" << Pb << endl;
+	cout << "*Pb:" << *Pb << endl;
+	cout << endl;
+
+	cout << "引用:"<< endl;
+	int Bx = 10;
+	cout << "Bx:" << Bx << endl;
+	Ax(Bx);
+	cout <<"Bx:"<< Bx << endl;
+	cout << endl;
+
+	cout << "指针:" << endl;
+	cout << "Bx:" << Bx << endl;
+	AX(&Bx);
+	cout << "Bx:" << Bx << endl;
+	cout << endl;
 
 
 
@@ -204,15 +234,27 @@ int main()
 	int a = 10;
 	int *Pa = new int(100);
 
+	int **PP = &Pa;
+
 	int *Pb = new int;
 
 
 	// Pb = &a;
 	// *Pb = 10;
 
+
+
 	cout << a << endl;
 	cout << Pa << endl;
 	cout << *Pa << endl;
+	cout << endl;
+
+	cout << PP << endl;
+	cout << *PP << endl;
+	cout << **PP << endl;
+
+	cout << endl;
+	cout << endl;
 	cout << Pb << endl;
 	cout << *Pb << endl;
 */
@@ -221,5 +263,22 @@ int main()
 
 	system("Pause");
     return 0;
+}
+
+void aaa(int** a)
+{
+	**a = 11;
+//	*a = new int(12);
+
+}
+
+void Ax(int& Ax)
+{
+	Ax = 123;
+}
+
+void AX(int* AX)
+{
+	*AX = 199;
 }
 

@@ -1,5 +1,10 @@
 ﻿  Test02.cpp
-d:\nick\c++\ue4\test02\test02\test02.cpp(77): warning C4305: “=”: 从“double”到“float”截断
-d:\nick\c++\ue4\test02\test02\test02.cpp(184): warning C4305: “=”: 从“double”到“float”截断
+d:\nick\c++\ue4\test02\test02\test02.cpp(79): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+d:\nick\c++\ue4\test02\test02\test02.cpp(176): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+d:\nick\c++\ue4\test02\test02\test02.cpp(222): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+d:\nick\c++\ue4\test02\test02\test02.cpp(267): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+d:\nick\c++\ue4\test02\test02\test02.cpp(580): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+d:\nick\c++\ue4\test02\test02\test02.cpp(592): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+d:\nick\c++\ue4\test02\test02\test02.cpp(598): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
   Test02.vcxproj -> D:\Nick\C++\UE4\Test02\Debug\Test02.exe
   Test02.vcxproj -> D:\Nick\C++\UE4\Test02\Debug\Test02.pdb (Full PDB)

@@ -1,0 +1,4 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (03.Sat(随机数 ).vcxproj, 03.Sat(随机数).vcxproj, 03.Sat.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  03.Sat.cpp
+  03.Sat.vcxproj -> D:\Nick\C++\UE4\Week03\Debug\03.Sat(Random).exe
+  03.Sat.vcxproj -> D:\Nick\C++\UE4\Week03\Debug\03.Sat(Random).pdb (Full PDB)
