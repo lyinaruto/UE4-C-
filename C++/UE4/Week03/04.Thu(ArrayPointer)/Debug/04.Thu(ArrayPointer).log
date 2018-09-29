@@ -1,0 +1,2 @@
+﻿Test.obj : error LNK2005: "int ZZ::za" (?za@ZZ@@3HA) 已经在 04.Thu(ArrayPointer).obj 中定义
+D:\Nick\C++\UE4\Week03\Debug\04.Thu(ArrayPointer).exe : fatal error LNK1169: 找到一个或多个多重定义的符号
