@@ -27,6 +27,15 @@
     <ClInclude Include="Pro.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="DuoTai.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Area.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DogCat.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -36,6 +45,15 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="03.Sat.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DuoTai.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Area.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DogCat.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

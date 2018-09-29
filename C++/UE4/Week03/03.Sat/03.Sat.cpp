@@ -3,12 +3,57 @@
 
 #include "stdafx.h"
 #include "Pro.h"
-
+#include "DuoTai.h"
+#include "Area.h"
+#include "DogCat.h"
 using namespace std;
 
 int main()
 {
 	srand(unsigned(time(0)));
+
+	Rectangle* rec = new Rectangle(12,10);
+	Rotundity* Rot = new Rotundity(20);
+
+	cout << rec->Area() << endl;
+	cout << rec->Perimeter() << endl;
+
+	cout << Rot->Area() << endl;
+	cout << Rot->Perimeter() << endl;
+
+    cout << "============================" << endl;
+
+	Fish* fish = new Fish;
+	Cat* cat = new Cat;
+	Awan* awan = new Awan;
+	Tor* tor = new Tor;
+	
+	Animal* ani = cat;
+	ani->Swim();
+
+	ani = fish;
+	ani->Swim();
+
+	ani = awan;
+	ani->Swim();
+
+	ani = tor;
+	ani->Swim();
+
+	cout << "============================" << endl;
+	//3.从学生，老师，校长类中抽象出人的类，学生和老师都有收作业的方法，但是校长不会收作业。
+
+
+
+	cout << "============================" << endl;
+	Son *son = new Son;
+	son->Say();
+
+	DuoTai *dt = son;
+	dt->Say();
+
+
+
 	for (int i=0;i<5;i++)
 	{
 		cout << RandomRange(30,50)<<endl;	
@@ -52,6 +97,7 @@ int main()
 			break;
 		}
 	}
+	
 
 	system("Pause");
     return 0;
