@@ -5,6 +5,32 @@
 
 using namespace std;
 
+void Hi(int a,...)
+{
+	int * Pa = &a;
+	int i = 0;
+	while (Pa[i]!=0)
+	{
+		cout << Pa[i] << endl;
+		i++;
+	}
+	cout << "==================" << endl;
+	return;
+}
+
+
+void* Hi(int* b, ...)
+{
+	int* Pp = b;
+	int i = 0;
+	while (Pa[i] != 0)
+	{
+		cout << Pp[i] << endl;
+		i++;
+	}
+}
+
+
 int main()
 {
  int* ArrayZ[5] = {};
@@ -45,7 +71,8 @@ int main()
 //	cout << *ArrayD[1] << endl;
 	cout << "====================" << endl;
 
-	int Array[] = { 11,22,33,44,55,66 };
+/*	
+    int Array[] = { 11,22,33,44,55,66 };
 	int(*ArrayS)[6] = &Array;
 	cout << *ArrayS[2] << endl;
 	cout << ArrayS[2] << endl;
@@ -54,8 +81,10 @@ int main()
 	{
 		cout << (*ArrayS)[i] << endl;
 	}
+*/
 
-
+	Hi(1, 2, 3, 4, 5, 6, 7);
+	cout << endl;
 
 
 	system("Pause");
