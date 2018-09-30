@@ -17,18 +17,33 @@ void Hi(int a,...)
 	cout << "==================" << endl;
 	return;
 }
+#define PINT int*
+#define PPP MAX
 
+#define MAX(A,B) (A>B?A:B)
 
-void* Hi(int* b, ...)
+#define SPWAN(X,Y,Z) X##Y##Z
+
+#define SPW(X) #X
+#define SPWA(X) #@X
+
+#define UN 11
+
+/*
+void Hi2(int* b, ...)
 {
 	int* Pp = b;
 	int i = 0;
-	while (Pa[i] != 0)
+	while (Pp[i])
 	{
 		cout << Pp[i] << endl;
 		i++;
 	}
+	return;
 }
+*/
+
+
 
 
 int main()
@@ -85,6 +100,33 @@ int main()
 
 	Hi(1, 2, 3, 4, 5, 6, 7);
 	cout << endl;
+
+//	Hi2(new int(12), new int(22), new int(32), new int(42), new int(52), new int(62), new int(72));
+
+	PINT pointer = new int(12);
+	cout << pointer << endl;
+	cout << *pointer << endl;
+	cout << "====================" << endl;
+
+	int A = MAX(10, 12);
+	cout << A << endl;
+	cout << MAX(12, 55) << endl;
+
+	cout << PPP(120,55) << endl;
+
+	PINT arr[] = { 0 };
+
+
+//	cout << SPWAN("Hello ",A,"!!!!!")<<endl;
+
+
+#if UN>100
+	cout << SPW(Hello) << endl;
+	cout << SPWA(W) << endl;
+
+#error Over
+#endif
+
 
 
 	system("Pause");
