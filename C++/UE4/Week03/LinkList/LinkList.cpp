@@ -34,7 +34,19 @@ int main()
 	SearchCurrent(Current->Next,N1);
 	
 	cout << "===================================" << endl;
+	cout << "请输入想要插入的数据:";
+	cin >> Num;
+	LinkList* New=LinkList::CreateLink(Num);
+	cout << "请输入想要插入的位置（在什么的后面）:";
+	cin >> Num;
+	Insert(Current, Num, New);
 
+	SearchCurrent(Current, N1);
+
+	cout << "===================================" << endl;
+	Inversion(Current, N1);
+
+	SearchCurrent(Current, N4);
 
 
 /*  

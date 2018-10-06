@@ -4,6 +4,7 @@
 
 using namespace std;
 
+/*
 
 void TraverseNext(LinkList* a)
 {
@@ -37,6 +38,8 @@ void Input(LinkList* a[])
 	}
 }
 
+*/
+
 void SearchCurrent(LinkList* Current,LinkList* Curr)
 {
 	Current = Curr;
@@ -50,8 +53,8 @@ void SearchCurrent(LinkList* Current,LinkList* Curr)
 LinkList::LinkList()
 {
 	this->Next = nullptr;
-	this->Last = nullptr;
 }
+
 
 LinkList* LinkList::CreateLink(int ID /*= 007*/)
 {
@@ -71,14 +74,41 @@ void Delete(LinkList*Current,int Num)
 			delete del;
 			break;
 		}
-		else
+		/*else                                           //É¾³ýÊ×Î»
 		{
 			LinkList* del = Current->Next;
 			Current->Next = Current->Next->Next;
 			delete del;
 			break;
-		}
+		}*/
 		Current = Current->Next;
 
 	}
+}
+
+void Insert(LinkList*Current, int Num,LinkList*New)
+{
+	while (Current)
+	{
+		if (Current->ID==Num)
+		{
+			New->Next = Current->Next;
+			Current->Next = New;
+			break;
+		}
+		Current = Current->Next;
+	}
+}
+
+void Inversion(LinkList* Current, LinkList* Curr)
+{
+	while (Current&&Current->Next)
+	{
+		LinkList* N = Current->Next->Next;
+		Current->Next->Next = Current;
+		Current = Current->Next;
+		Current->Next = N;
+	}
+	Current = Curr;
+	Current->Next = nullptr;
 }

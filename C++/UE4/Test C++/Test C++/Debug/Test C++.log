@@ -1,0 +1,15 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Test C++.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Test01.cpp
+d:\nick\c++\ue4\test c++\test c++\test.h(7): error C2061: 语法错误: 标识符“string”
+d:\nick\c++\ue4\test c++\test c++\test.h(11): error C3646: “Name”: 未知重写说明符
+d:\nick\c++\ue4\test c++\test c++\test.h(11): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+  Test.cpp
+d:\nick\c++\ue4\test c++\test c++\test.h(7): error C2061: 语法错误: 标识符“string”
+d:\nick\c++\ue4\test c++\test c++\test.h(11): error C3646: “Name”: 未知重写说明符
+d:\nick\c++\ue4\test c++\test c++\test.h(11): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+d:\nick\c++\ue4\test c++\test c++\test.cpp(48): error C2660: “Person::SetName”: 函数不接受 1 个参数
+d:\nick\c++\ue4\test c++\test c++\test.cpp(63): error C2065: “Name”: 未声明的标识符
+d:\nick\c++\ue4\test c++\test c++\test.cpp(72): error C2511: “void Person::SetName(std::string)”:“Person”中没有找到重载的成员函数
+  d:\nick\c++\ue4\test c++\test c++\test.h(3): note: 参见“Person”的声明
+d:\nick\c++\ue4\test c++\test c++\test.cpp(73): error C2065: “Name”: 未声明的标识符
+  正在生成代码...
